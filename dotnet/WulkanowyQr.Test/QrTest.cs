@@ -13,16 +13,14 @@ namespace WulkanowyQr.Test
         public void EncodeQr()
         {
             string result = Qr.Encode(_key, _content);
-            if (result == _base64)
-                Assert.True(true);
+            Assert.Equal(_base64, result);
         }
 
         [Fact]
         public void DecodeQr()
         {
             string result = Qr.Decode(_key, _base64);
-            if (result == _content)
-                Assert.True(true);
+            Assert.Equal(_content, result);
         }
     }
 }
