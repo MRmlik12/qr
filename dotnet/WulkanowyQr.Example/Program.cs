@@ -1,14 +1,14 @@
 ﻿using System;
-using WulkanowyQr;
+using Wulkanowy;
 
-namespace WulkanowyQr.Example
+namespace Wulkanowy.Example
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var encode = Qr.Encode("ABCDEFG", "CODE");
-            var decode = Qr.Decode("ABCDEFG", "ENCRYPTED_CODE");
+            var encode = Qr.Encode("KEY", "CODE");
+            var decode = Qr.Decode("KEY", "ENCRYPTED_CODE");
         }
     }
 }

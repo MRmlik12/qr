@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace WulkanowyQr
+namespace Wulkanowy
 {
     //See https://docs.microsoft.com/en-gb/dotnet/api/system.security.cryptography.aes?view=net-5.0
     
@@ -34,7 +34,6 @@ namespace WulkanowyQr
                     }
                 }
             }
-            
             return Convert.ToBase64String(encrypted);
         }
 
@@ -61,7 +60,6 @@ namespace WulkanowyQr
                     }
                 }
             }
-
             return decrypted;
         }
     }
