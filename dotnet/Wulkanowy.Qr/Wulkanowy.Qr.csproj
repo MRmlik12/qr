@@ -7,7 +7,7 @@
         <Description>Encryptor/Decryptor for Uonet+ qr code</Description>
         <PackageProjectUrl>https://github.com/wulkanowy/qr/tree/master/dotnet</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/wulkanowy/qr/blob/master/LICENSE</PackageLicenseUrl>
-	   <RepositoryUrl>https://github.com/wulkanowy/qr</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/wulkanowy/qr</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
